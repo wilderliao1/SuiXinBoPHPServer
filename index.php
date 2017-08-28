@@ -8,7 +8,7 @@ require_once  SERVICE_PATH . '/Server.php';
 ini_set('date.timezone','Asia/Shanghai');
 header("Access-Control-Allow-Origin: *");
 $server = new Server();
-$server->handle();
+$server->handle(); 
 
 
 
